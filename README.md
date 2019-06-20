@@ -1,3 +1,11 @@
+# @TGRx/node-http-proxy (FORKED FROM MAIN LIBRARY)
+
+## Included in this fork
+
+- 1.17.1 - Ability to declare Sever Name https://github.com/nodejitsu/node-http-proxy/pull/1134
+
+---
+
 <p align="center">
   <img src="https://raw.github.com/nodejitsu/node-http-proxy/master/doc/logo.png"/>
 </p>
@@ -32,7 +40,7 @@ proxies and load balancers.
 
 ### Installation
 
-`npm install http-proxy --save`
+`npm install @tgrx/http-proxy --save`
 
 **[Back to top](#table-of-contents)**
 
