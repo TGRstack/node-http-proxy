@@ -319,6 +319,7 @@ describe('lib/http-proxy/common.js', function () {
       common.setupOutgoing(outgoing,
       {
         agent     : '?',
+        servername: 'my-servername',
         target: {
           host      : 'how',
           hostname  : 'are',
@@ -331,7 +332,6 @@ describe('lib/http-proxy/common.js', function () {
           ca: 'my-ca',
           ciphers: 'my-ciphers',
           secureProtocol: 'my-secure-protocol',
-          servername: 'my-servername',
         }
       },
       {

@@ -2,6 +2,7 @@
 
 ## Included in this fork
 
+- 1.17.2 - Update ServerName method. `npm audit fix --force`
 - 1.17.1 - Ability to declare Sever Name https://github.com/nodejitsu/node-http-proxy/pull/1134
 
 ---
